@@ -1,2 +1,2 @@
 # helloword
-Un saluto!
+Un saluto
