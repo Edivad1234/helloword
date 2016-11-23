@@ -1,4 +1,4 @@
-pi = 3.1415
+import math
 raggio = input("Inserire il raggio della sfera: ")
-print ("La superficie della sfera e': "), pi*4*(raggio*raggio)
-print ("Il volume della sfera e': "), (pi*4*(raggio*raggio*raggio))/3
+print ("La superficie della sfera e': "), math.pi*4.0*(raggio*raggio)
+print ("Il volume della sfera e': "), (math.pi*4.0*(raggio*raggio*raggio))/3.0
