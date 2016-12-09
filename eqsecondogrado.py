@@ -20,12 +20,11 @@ elif a==0:
 else:
     delta = pow(b, 2) - 4.0*(a*c)
 
-if delta<0 :
-       print "L'equazione con delta minore di 0, e' impossibile"
+    if delta<0 :
+               print "L'equazione con delta minore di 0, e' impossibile"
 
-else:    
-    delta= pow(b,2) - 4.0*(a*c)
-    soluz=(((b*(-1))+math.sqrt(delta)))/(2*a)
-    soluz2=(((b*(-1))-mathsqrt(delta)))/(2*a)
-
+    else:    
+        soluz=(((b*(-1))+math.sqrt(delta)))/(2*a)
+        soluz2=(((b*(-1))-math.sqrt(delta)))/(2*a)
+        print "Le soluzioni sono, x1=", soluz, "e x2=", slouz2
 
