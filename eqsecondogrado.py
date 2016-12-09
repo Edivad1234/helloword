@@ -26,5 +26,5 @@ else:
     else:    
         soluz=(-b)+math.sqrt(delta)/(2.0*a)
         soluz2=(-b)-math.sqrt(delta)/(2.0*a)
-        print "Le soluzioni sono, x1=", soluz, "e x2=", slouz2
+        print "Le soluzioni sono, x1=", soluz, "e x2=", soluz2
 
