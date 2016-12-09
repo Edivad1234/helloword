@@ -24,7 +24,7 @@ else:
                print "L'equazione con delta minore di 0, e' impossibile"
 
     else:    
-        soluz=(((b*(-1))+math.sqrt(delta)))/(2*a)
-        soluz2=(((b*(-1))-math.sqrt(delta)))/(2*a)
+        soluz=(-b)+math.sqrt(delta)/(2.0*a)
+        soluz2=(-b)-math.sqrt(delta)/(2.0*a)
         print "Le soluzioni sono, x1=", soluz, "e x2=", slouz2
 
