@@ -3,10 +3,10 @@
 import math
 
 a = input ("ax=")
-#Valore della x
+#Vadella x
 
 b = input ("b=")
-#Termine noto
+#Terminenoto
 
 if a==0 and b==0:
     print "L'equazione e' sempre verificata"
